@@ -1,0 +1,13 @@
+version: !!str3
+
+services:
+    mynginx:
+      build: 
+         context: . 
+         dockerfile: Dockerfile
+
+             
+      ports:          
+        - "8080:80"
+
+
