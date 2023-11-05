@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+        mynginx:
+             build: .
+             
+             container_name: moh
+             ports:
+              - "8080:80"  
+
