@@ -1,0 +1,12 @@
+version: !!str3
+
+services:
+     myalpine:   
+        build: 
+           context: .
+           
+           args:
+              - IMAGE_TAG=latest
+              - APP_VERSION=3  
+
+
